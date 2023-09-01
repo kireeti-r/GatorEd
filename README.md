@@ -2,4 +2,6 @@
 Full Stack Web Application Using Spring Framework
 
 # Configuration
-Maven
+Build Tool: Maven
+Dependencies: Spring Context
+
