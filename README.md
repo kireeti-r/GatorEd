@@ -6,3 +6,5 @@ Build Tool: Maven
 
 Dependencies: Spring Context
 
+jakarta.annotation-api
+
