@@ -4,7 +4,7 @@ import com.example.beans.Person;
 import com.example.config.ProjectConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class Example19 {
+public class Example20 {
     public static void main(String[] args) {
 
         var context =new AnnotationConfigApplicationContext(ProjectConfig.class);
