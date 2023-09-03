@@ -5,7 +5,7 @@ import com.example.model.Song;
 import com.example.config.ProjectConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class Example22 {
+public class Example23 {
     public static void main(String[] args) {
         var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
         var vehicleServices = context.getBean(VehicleServices.class);
@@ -13,7 +13,7 @@ public class Example22 {
         Song song = new Song();
         song.setTitle("Blank Space");
         song.setSingerName("Taylor Swift");
-        boolean vehicleStarted = false;
+        boolean vehicleStarted = true;
         String moveVehicleStatus = vehicleServices.moveVehicle(vehicleStarted);
         String playMusicStatus = vehicleServices.playMusic(vehicleStarted,song);
         String applyBrakeStatus = vehicleServices.applyBrake(vehicleStarted);
