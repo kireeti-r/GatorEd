@@ -8,3 +8,5 @@ Dependencies: Spring Context
 
 jakarta.annotation-api
 
+spring-aspects
+
