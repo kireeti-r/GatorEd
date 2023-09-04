@@ -10,3 +10,7 @@ jakarta.annotation-api
 
 spring-aspects
 
+spring-boot-starter-web
+
+spring-boot-starter-test
+
