@@ -16,3 +16,5 @@ spring-boot-starter-test
 
 spring-boot-starter-thymeleaf
 
+spring-boot-devtools
+
