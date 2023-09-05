@@ -14,3 +14,5 @@ spring-boot-starter-web
 
 spring-boot-starter-test
 
+spring-boot-starter-thymeleaf
+
